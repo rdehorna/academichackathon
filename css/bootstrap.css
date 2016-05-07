@@ -1126,6 +1126,9 @@ img {
   height: auto;
   border-radius: 6px;
 }
+.img-responsive:hover {
+    opacity: 50%;
+}
 .img-rounded {
   border-radius: 6px;
 }
@@ -1267,10 +1270,12 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 h2,
 .h2 {
   font-size: 30px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 h3,
 .h3 {
@@ -4300,8 +4305,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 20px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4523,7 +4529,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
@@ -4535,7 +4542,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {

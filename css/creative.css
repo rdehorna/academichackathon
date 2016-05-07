@@ -22,10 +22,12 @@ header .header-content {
 }
 
 header .header-content .header-content-inner h1 {
+    padding-top: 100px;
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 header .header-content .header-content-inner hr {
@@ -37,6 +39,7 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: #000;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .project-name {
@@ -45,15 +48,21 @@ header .header-content .header-content-inner p {
 	color: #fff;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .project-name:hover {
 	color:#3399B7;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .container-text {
 	text-align: center;
 	font-size: 18px;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+h2.container {
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 .footer {
 	background-color:#FF5733;
@@ -61,6 +70,7 @@ header .header-content .header-content-inner p {
 	padding-right: 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 .footer p {
 	color:#fff;
@@ -75,7 +85,11 @@ header .header-content .header-content-inner p {
 
 p.bg-primary, p.bg-secondary {
 	font-size: 18px;
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 
+}
+h2.bg-primary, h2.bg-secondary {
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
 .glyphicon.glyphicon-cd, .glyphicon.glyphicon-wrench, .glyphicon.glyphicon-credit-card,
@@ -85,5 +99,29 @@ p.bg-primary, p.bg-secondary {
 
 a.portfolio-box {
 	text-decoration: none;
+	padding-bottom: 5px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 
+}
+.btn-default .badge {
+    color: #fff;
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: #FF5733;
+    color: #fff;
+    background-color: #f05f40;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.portfolio-box-caption:hover {
+	opacity: 50%;
+
+}
+
+ font-size: 18px;
 }
