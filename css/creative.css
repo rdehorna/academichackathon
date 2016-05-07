@@ -16,6 +16,7 @@
 	padding-bottom: 5px;
 	font-weight: bold;
 	text-decoration:none;
+	padding-bottom: 15px;
 }
 .container-text {
 	text-align: center;
@@ -37,4 +38,13 @@
 	width: 845px;
 	height: 524px;
 
+}
+
+p.bg-primary, p.bg-secondary {
+	font-size: 18px;
+
+}
+
+.glyphicon.glyphicon-cd, .glyphicon.glyphicon-wrench, .glyphicon.glyphicon-credit-card {
+    font-size: 60px;
 }

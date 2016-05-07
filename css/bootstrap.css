@@ -1097,12 +1097,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #3399B7;
+  color: #fff;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #FF7254;
   text-decoration: underline;
 }
 a:focus {
@@ -1378,9 +1378,14 @@ a.text-danger:focus {
   color: #fff;
   background-color: #3399B7;
 }
+p.bg-primary, p.bg-secondary {
+  font-size: 18px;
+
+}
 a.bg-primary:hover,
 a.bg-primary:focus {
   background-color: #286090;
+  text-decoration: none;
 }
 /* second type of block */
 .bg-secondary {
@@ -1390,6 +1395,7 @@ a.bg-primary:focus {
 a.bg-secondary:hover,
 a.bg-secondary:focus {
   background-color: #286090;
+  text-decoration: none;
 }
 
 .bg-success {
@@ -1398,6 +1404,7 @@ a.bg-secondary:focus {
 a.bg-success:hover,
 a.bg-success:focus {
   background-color: #c1e2b3;
+  text-decoration: none;
 }
 .bg-info {
   background-color: #d9edf7;
