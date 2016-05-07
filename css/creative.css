@@ -1,0 +1,40 @@
+/* CSS document with styles for classes not in the bootstraps.css */
+
+.project-name {
+	text-align: center;
+	font-size: 18px;	
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.project-name:hover {
+	text-align: center;
+	font-size: 18px;	
+	color: #6E878E;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	text-decoration:none;
+}
+.container-text {
+	text-align: center;
+	font-size: 18px;
+}
+.footer {
+	background-color:#FF5733;
+	padding-left: 25px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer p {
+	color:#fff;
+	font-size:16px;
+	text-align:right;
+}
+.portfolio-box {
+	width: 845px;
+	height: 524px;
+
+}
